@@ -1,0 +1,56 @@
+# Project information
+site_name: Russell T Adams
+site_description: Mkdocs PWA Resume for Russell T Adams
+site_author: russell.t.adams@gmail.com
+
+#google_analytics:
+#  - 'UA-XXXXXXXX-X'
+#  - 'auto'
+
+# Github repo links, replace this with your repo and url
+repo_name: '/russelltadams/mkdocs-material-pwa-zeit.co'
+repo_url: 'https://github.com/russelltadams/mkdocs-material-pwa-zeit.co'
+
+# Navigation example, with optional tabs heiarchy turn on
+nav:
+  - Home: 'index.md'
+  - Job Experience:
+      - Resume: 'resume/jobs.md'
+  - Skills:
+      - Resume: 'resume/skills.md'
+  - Personal Projects:
+      - Resume: 'resume/personal.md'
+  - Contact:
+      - Resume: 'resume/contact.md'
+
+# Configuration
+theme:
+  name: 'material'
+  language: 'en'
+  palette:
+    primary: 'indigo'
+    accent: 'indigo'
+  font:
+    text: 'Ubuntu'
+    code: 'Ubuntu Mono'
+  feature:
+    tabs: true
+
+# Extensions
+markdown_extensions:
+    - admonition
+    - codehilite:
+        guess_lang: false
+    - toc:
+        permalink: true
+
+# Customization
+extra:
+  manifest: 'manifest.json'
+  social:
+    - type: 'github'
+      link: 'https://github.com/russelltadams'
+
+# Bits to register the service worker
+extra_javascript:
+  - 'javascripts/rsw.js'
