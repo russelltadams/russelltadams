@@ -14,10 +14,12 @@ repo_url: 'https://github.com/russelltadams/mkdocs-material-pwa-zeit.co'
 # Navigation example, with optional tabs heiarchy turn on
 nav:
   - Home: 'index.md'
-  - Job Experience: 'resume/jobs.md'
-  - Skills: 'resume/skills.md'
-  - Personal Projects: 'resume/personal.md'
-  - Contact: 'resume/contact.md'
+  - Resume:
+    - Job Experience: 'resume/jobs.md'
+    - Skills: 'resume/skills.md'
+    - Personal Projects: 'resume/personal.md'
+  - Contact:
+    - Contact Me: 'contact.md'
 
 # Configuration
 theme:
