@@ -20,7 +20,7 @@ Keybase is a key directory that maps identities to encryption keys in a publicly
 
 [https://keybase.io/russelltadams](https://keybase.io/russelltadams)
 
-Using GPG(PGP) already but not on Keybase?
+Using GPG (PGP) already but not on Keybase?
 [Here's my Public Key](https://keybase.io/russelltadams/pgp_keys.asc?fingerprint=7c0c5efed074e599961b6b794847347389994e61). Try via email.
 
 ## LinkedIn
