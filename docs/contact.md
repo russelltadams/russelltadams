@@ -1,6 +1,6 @@
 ## E-mail
 
-E-mail is broken tech debt the whole world is still trying to recover from, but probably never will. Sadly it still has a role to play in workplace and business to business communications. Thankfully it is quickly and frequently, not always successfully, being relegated to only the use cases that it is really good for, and is quickly be supplemented by much better forms of communication. Since reaching out to a random person you don't know yet is the perfect use case for email, please feel free to email me, and good luck! Can you read JavaScript? It's not that hard.   
+Can you read JavaScript? It's not that hard.   
 
 ```javascript
 <script type="text/javascript">
