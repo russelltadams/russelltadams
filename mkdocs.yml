@@ -46,7 +46,7 @@ markdown_extensions:
 extra:
   manifest: 'manifest.json'
   social:
-    - type: 'github'
+    - icon: brands/github-alt
       link: 'https://github.com/russelltadams'
 
 # Bits to register the service worker
