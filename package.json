@@ -1,6 +1,6 @@
 {
   "name": "mkdocs",
-  "version": "1.0.0",
+  "version": "1.1",
   "private": true,
   "description": "My Resume MkDocs project, ready for deployment with ZEIT Now.",
   "main": "index.js",
